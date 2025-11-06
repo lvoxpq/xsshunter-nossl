@@ -13,7 +13,7 @@ r.forEach(function(e){try{n.style[e]=t.css(e)}catch(r){E("html2canvas: Parse: Ex
 
 var chainload_uri = [CHAINLOAD_REPLACE_ME];
 var collect_page_list = [COLLECT_PAGE_LIST_REPLACE_ME];
-let probe_return_data = {};
+var probe_return_data = {};
 
 // Source: https://stackoverflow.com/a/20151856/1195812
 function base64_to_blob(base64Data, contentType) {
